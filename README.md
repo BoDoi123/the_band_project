@@ -1,6 +1,7 @@
 # the_band_project
 
-## Phân tích  --> OK
+## Phân tích --> OK
+
     1. Header
     2. Slider
     3. Content
@@ -10,4 +11,4 @@
         - Image
     4. Footer
 
-## Dựng Base 
+## Dựng Base
