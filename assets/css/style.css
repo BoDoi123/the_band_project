@@ -13,6 +13,14 @@ html {
 	font-family: Helvetica, Arial, sans-serif;
 }
 
+.text-white {
+	color: #fff !important;
+}
+
+a {
+	text-decoration: none;
+}
+
 /*  
     1. Từ ngoài vào trong.
     2. Từ trên xuống dưới.
@@ -136,8 +144,156 @@ html {
 	margin: 0 0 15px;
 }
 
-#content {
+/* ===================> About <=================== */
+#content .content-section {
+	width: 800px;
+	margin: 0 auto;
+	padding: 64px 16px;
 }
+
+#content .section-heading {
+	font-size: 30px;
+	font-weight: 500;
+	text-align: center;
+	letter-spacing: 4px;
+	margin: 10px 0 25px;
+	text-transform: uppercase;
+}
+
+#content .section-subheading {
+	font-size: 15px;
+	font-style: italic;
+	text-align: center;
+	margin-bottom: 25px;
+	opacity: 0.6;
+}
+
+#content .about-content {
+	margin-bottom: 15px;
+	text-align: justify;
+	line-height: 1.6;
+}
+
+#content .members-list {
+	padding: 32px 0;
+	display: flex;
+	justify-content: space-around;
+}
+
+#content .member-item {
+	text-align: center;
+}
+
+#content .member-name {
+	margin: 15px 0;
+	font-size: 15px;
+}
+
+#content .member-avatar {
+	width: 154px;
+	border-radius: 4px;
+}
+
+/* ===================> Tour <=================== */
+#content .tour-section {
+	background-color: #000;
+}
+
+#content .section-subheading {
+	margin-bottom: 15px;
+}
+
+#content .tickets-list {
+	background-color: #fff;
+}
+
+#content .ticket-item {
+	padding: 11px 16px;
+	list-style: none;
+	color: #757575;
+	font-size: 15px;
+	border-bottom: 0.8px solid #ddd;
+}
+
+#content .sold-out {
+	margin-left: 16px;
+	padding: 4px 8px;
+	color: #fff;
+	background-color: #f44336;
+}
+
+#content .quantity {
+	height: 24px;
+	width: 24px;
+	line-height: 24px;
+	margin-right: 16px;
+	padding: 0 8px;
+	border-radius: 50%;
+	background-color: #000;
+	color: #fff;
+	float: right;
+	margin-top: -3px;
+}
+
+#content .places-list {
+	padding: 32px 8px;
+	margin: 0 -16px;
+	display: flex;
+}
+
+#content .place-item {
+	width: calc(100% / 3);
+	padding: 0 8px;
+	margin-bottom: 16px;
+}
+
+#content .place-item .place-img {
+	width: 100%;
+    display: block;
+}
+
+#content .place-item .place-img:hover {
+	opacity: 0.7;
+}
+
+#content .place-item .place-body {
+	padding: 0.15px 16px;
+	background-color: #fff;
+}
+
+#content .place-body .place-heading {
+	margin: 15px 0;
+	font-size: 15px;
+}
+
+#content .place-body .place-time {
+	font-size: 15px;
+	opacity: 0.6;
+	margin-bottom: 15px;
+}
+
+#content .place-body .place-desc {
+	font-size: 15px;
+	line-height: 1.6;
+	margin-bottom: 15px;
+}
+
+#content .place-body .place-buy-btn {
+	display: inline-block;
+	margin-bottom: 16px;
+	padding: 11px 16px;
+	color: #fff;
+	background-color: #000;
+	font-size: 15px;
+}
+
+#content .place-body .place-buy-btn:hover {
+	background-color: var(--hover-background-color);
+	color: #000;
+}
+
+/* Modal Buy Ticket */
+.m
 
 #footer {
 }
