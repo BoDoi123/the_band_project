@@ -12,3 +12,7 @@
     4. Footer
 
 ## Dựng Base
+
+### Header & Navigation --> OK
+
+### Slider
