@@ -15,4 +15,6 @@
 
 ### Header & Navigation --> OK
 
-### Slider
+### Slider --> OK
+
+### Content
