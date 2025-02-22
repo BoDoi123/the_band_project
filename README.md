@@ -18,3 +18,9 @@
 ### Slider --> OK
 
 ### Content
+
+#### About --> OK
+
+#### Tour --> OK
+
+#### Modal Buy Ticket
