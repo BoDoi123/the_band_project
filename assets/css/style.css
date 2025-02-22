@@ -395,7 +395,7 @@ a {
 
 @keyframes showModal {
 	from {
-		transform: translateY(-50%);
+		transform: translateY(-70%);
 		opacity: 0;
 	}
 }
