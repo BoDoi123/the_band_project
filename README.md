@@ -22,4 +22,5 @@
     - About --> OK
     - Tour --> OK
     - Modal Buy Ticket --> OK
-    - Contact
+    - Contact --> OK
+    - Map 
