@@ -11,6 +11,7 @@
 
 html {
 	font-family: Helvetica, Arial, sans-serif;
+	scroll-behavior: smooth;
 }
 
 /* Common */
@@ -454,7 +455,38 @@ a {
 	background-color: #ccc;
 	color: #000;
 }
+
+/* ===================> Map <=================== */
+.map-section img {
+	width: 100%;
+}
+
+/* ===================> Footer <=================== */
 #footer {
+	padding: 64px 16px;
+	text-align: center;
+}
+
+#footer .socials-list a {
+	font-size: 24px;
+	opacity: 0.6;
+	color: #000;
+}
+
+#footer .socials-list a:hover,
+#footer .copyright a:hover {
+	opacity: 0.4;
+}
+
+#footer .copyright {
+	margin: 15px 0;
+	font-size: 15px;
+	opacity: 0.6;
+}
+
+#footer .copyright a {
+	text-decoration: underline;
+	color: #000;
 }
 
 @keyframes showModal {
