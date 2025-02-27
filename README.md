@@ -23,4 +23,15 @@
     - Tour --> OK
     - Modal Buy Ticket --> OK
     - Contact --> OK
-    - Map 
+    - Map --> OK
+    - Footer --> OK
+
+## Responsive
+
+    - PC --> OK
+
+    - Tablet --> OK
+
+    - Mobile --> OK
+
+## Finish Project
