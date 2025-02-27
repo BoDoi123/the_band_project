@@ -10,6 +10,18 @@
 	.modal .modal-container {
 		width: 90%;
 	}
+
+	#nav .sub_nav {
+		background-color: #333;
+	}
+
+	#nav .sub_nav a {
+		color: #fff;
+	}
+
+	#nav .show_sub_menu {
+		display: block;
+	}
 }
 
 /* Mobile */
