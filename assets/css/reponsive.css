@@ -1,0 +1,131 @@
+/* PC */
+@media (min-width: 1024px) {
+	#nav li:hover .sub_nav {
+		display: block;
+	}
+}
+
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+	.modal .modal-container {
+		width: 90%;
+	}
+}
+
+/* Mobile */
+@media (max-width: 739px) {
+	/* Header */
+	#header {
+		overflow: hidden;
+	}
+
+	#nav > li,
+	#header > #nav {
+		display: block;
+	}
+
+	#header .search-btn {
+		display: none;
+	}
+
+	#header .mobile-menu-btn {
+		display: block;
+	}
+
+	#header.show-menu-mobile {
+		height: auto;
+	}
+
+	/* Navigation & Sub Menu */
+	#nav > li:first-child {
+		display: inline-block;
+	}
+
+	#nav .sub_nav {
+		position: initial;
+		background-color: #333;
+	}
+
+	#nav .sub_nav a {
+		color: #fff;
+		padding: 5px 41px;
+	}
+
+	#nav .show_sub_menu {
+		display: block;
+	}
+
+	/* Content -- Memeber List (Team) */
+	#content .members-list {
+		flex-flow: column;
+		align-items: center;
+		width: 100%;
+		margin: 0 auto;
+	}
+
+	#content .members-list > div {
+		width: 100%;
+	}
+
+	#content .member-avatar {
+		margin-bottom: 16px;
+		width: 63%;
+	}
+
+	/* Tour Section */
+	#content .places-list {
+		flex-flow: column;
+		align-items: center;
+		width: 100%;
+		margin: 0 auto;
+		padding: 32px 0;
+	}
+
+	#content .places-list > div {
+		width: 100%;
+		margin-bottom: 16px;
+	}
+
+	/* Modal Buy Ticket */
+	.modal .modal-container {
+		width: 95%;
+	}
+
+	/* Contact Section */
+	#content .contact-content {
+		flex-flow: column;
+		align-items: center;
+		width: 100%;
+		margin: 0 auto;
+		padding: 32px 0;
+	}
+
+	.contact-content > div {
+		width: 100%;
+	}
+
+	.contact-content > div:first-child {
+		margin-bottom: 16px;
+	}
+
+	.contact-content .contact-row {
+		flex-flow: column;
+		width: 100%;
+	}
+
+	.contact-content .contact-row > div {
+		width: 100%;
+	}
+
+	.contact-content .contact-input {
+		padding: 0;
+	}
+
+	.contact-form .form-control {
+		font-size: 14px;
+	}
+
+	.contact-form .contact-submit {
+		font-size: 15px;
+	}
+}

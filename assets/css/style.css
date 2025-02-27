@@ -123,11 +123,15 @@ a {
 	line-height: 38px;
 }
 
-#nav li:hover .sub_nav {
-	display: block;
+#header .mobile-menu-btn {
+	display: none;
+	position: absolute;
+	right: 0;
+	top: 0;
 }
 
-#header .search-btn {
+#header .search-btn,
+#header .mobile-menu-btn {
 	float: right;
 	padding: 0 21px;
 }
@@ -137,10 +141,19 @@ a {
 	background-color: #f44336;
 }
 
-#header .search-icon {
+#header .search-icon,
+#header .menu-icon {
 	color: #fff;
 	font-size: 20px;
 	line-height: 46px;
+}
+
+#header .mobile-menu-btn:hover {
+	background-color: var(--hover-background-color);
+}
+
+#header .mobile-menu-btn:hover .menu-icon {
+	color: #000;
 }
 
 /* ===================> Slider <=================== */
@@ -174,6 +187,7 @@ a {
 /* ===================> About <=================== */
 #content .content-section {
 	width: 800px;
+	max-width: 100%;
 	margin: 0 auto;
 	padding: 64px 16px;
 }
