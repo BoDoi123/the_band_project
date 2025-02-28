@@ -1,12 +1,12 @@
 /* PC */
-@media (min-width: 1024px) {
+@media (min-width: 64em) {
 	#nav li:hover .sub_nav {
 		display: block;
 	}
 }
 
 /* Tablet & Mobile */
-@media (max-width: 1023px) {
+@media (max-width: 63.9375em) {
 	/* Modal Buy Ticket */
 	.modal .modal-container {
 		width: 95%;
@@ -49,11 +49,11 @@
 }
 
 /* Tablet */
-@media (min-width: 740px) and (max-width: 1023px) {
+@media (min-width: 46.25emx) and (max-width: 63.9375em) {
 }
 
 /* Mobile */
-@media (max-width: 739px) {
+@media (max-width: 46.1875em) {
 	/* Header */
 	#header {
 		overflow: hidden;
