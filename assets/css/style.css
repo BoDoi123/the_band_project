@@ -432,6 +432,14 @@ a {
 	padding: 0;
 }
 
+#content .contact-info a {
+	opacity: 0.8;
+}
+
+#content .contact-info a:hover {
+	opacity: 1;
+}
+
 #content .contact-info i[class*="ti-"] {
 	width: 30px;
 	display: inline-block;
